@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+
+<script>
+    
+    function func(){
+
+        
+        
+        
+        
+        var x;
+        x=document.getElementById("i1").value;
+        if(x>18){
+            document.getElementById("p1").innerHTML="you are not under 18";
+    }
+        
+        else if(x==18){
+                
+                document.getElementById("p1").innerHTML="you are 18 congratulation";
+                }
+    else{
+        document.getElementById("p1").innerHTML="you are under 18";
+    }
+    
+    
+    }
+    </script>
+    
+    <body>
+        <form> 
+        <input type="number" placeholder="Enter your age" id="i1" name="i1">
+        </form>
+        
+        
+        
+        <button onclick="func()">click here</button>
+    
+    <p id="p1"></p>
+        
+        
+    </body>
+    
+    </html>

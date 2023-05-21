@@ -1,0 +1,124 @@
+<html>
+
+<head>
+
+    <style>
+        body{
+            
+            
+            text-align-last: center;
+            
+            color:floralwhite;
+            
+            font-family: "courier";
+            
+           background-color:dodgerblue;
+    
+           }
+         .bor{
+             background-color:dimgrey;
+                border-width:thin;
+             
+             border-style:solid;
+                
+                 }
+    
+    
+    </style>
+
+</head>
+    
+    
+    <script>
+    
+    function fun(){
+        var s1,s2,s3,s4,s5;
+                
+        s1 = document.getElementById("i1").value;
+        document.getElementById("p1").innerHTML="NAME = "+s1;
+        s2 = document.getElementById("i2").value;
+        document.getElementById("p2").innerHTML="Reg No = "+s2;
+        s3 = document.getElementById("i3").value;
+        document.getElementById("p3").innerHTML="User Name = "+s3;
+        s4 = document.getElementById("i4").value;
+        document.getElementById("p4").innerHTML="Password = "+s4;
+        s5 = document.getElementById("sex").value;
+        document.getElementById("p5").innerHTML="Gender = "+s5;
+
+        
+
+        
+        
+    }
+    
+    
+    </script>
+        
+
+<body>
+
+<h1>Biodata</h1>
+    
+    <form>  
+        
+     <label for="i1" class="bor">Name:</label>
+        
+     <input type="text"  name="i1" placeholder="Your Name" id="i1"><br><br>
+        
+     <label for="i2" class="bor">Reg No:</label>
+        
+     <input type="text"  name="i2" placeholder="Your Registration Number" id="i2"><br><br>
+        
+     <label for="i3" class="bor">User Name:</label>
+        
+     <input type="text"  name="i3" placeholder="User Name" id="i3"><br><br>
+        
+    <label for="i4" class="bor">Password:</label>
+       
+    <input type="password" name="i4" placeholder="Enter Password" id="i4"><br><br>
+        
+        <label for="sex">Gender:</label>
+        
+        <select name="sex" id="sex">
+            
+        <option>Male</option>
+            
+        <option>Female</option></select><br>
+
+         
+        
+        <br>
+            <label id="chek">Courses:</label><br>
+        
+            <label id="ck">Computer fundamentals</label>
+
+            <input type="checkbox" id="ck" ><br>
+        
+            <label id="ck">Computer fundamentals lab</label>
+
+            <input type="checkbox" id="ck" ><br><br>
+        
+            Are the courses easy ?<input type="radio"><br><br>
+        
+    </form>    
+        <button name="b" id="b" onclick="fun()"><b>Click here to submit</b></button>
+
+
+
+
+
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<p id="p4"></p>
+<p id="p5"></p>
+
+
+
+
+    
+</body>
+
+
+
+</html>

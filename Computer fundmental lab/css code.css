@@ -1,0 +1,14 @@
+h1{color:red;
+    text-align: center;}
+
+body{
+    background-image: url(UETLOGO.png);
+background-repeat: no-repeat;align-content: center;}
+
+#id1{color: darkgreen;}
+
+
+.myclass{color: blueviolet;
+border-style: solid;
+    border-width: 10px;
+font-size: 60;}

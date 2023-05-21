@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    
+    </head>
+    <script>
+            
+    
+    function func(){
+    
+        var x;
+        x=document.getElementById("i2").value;
+        if(x=="admin"){
+            document.getElementById("p1").innerHTML="Success";
+    }
+        
+
+    else{
+        document.getElementById("p1").innerHTML="Fail";
+    }
+    
+    
+    }
+    </script>
+
+<body align="center">
+    
+    
+ 
+  <label for="text">Name:</label>
+        
+  <input type="text"  name="i1" placeholder="Your Name" id="i1"><br><br>
+    
+    
+  <label for="text">Password:</label>
+       
+  <input type="password" name="i2" placeholder="Enter Password" id="i2"><br><br>
+
+        <button onclick="func()">Login</button>
+         
+    
+    <p id="p1"></p>
+
+    
+    
+    
+    
+    </body>
+
+</html>
